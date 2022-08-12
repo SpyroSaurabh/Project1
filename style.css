@@ -1,0 +1,136 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.navbar-container {
+  min-height: 20vh;
+  width: 85%;
+  margin: auto;
+  /* background-color: chocolate; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list {
+  list-style-type: none;
+  width: 35vw;
+font-family:Orbitron;
+font-weight: 700;
+  /* padding: 0 100px; */
+  /* background-color: cornflowerblue; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.button-group {
+  width: 12vw;
+  /* background-color: blueviolet; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-button {
+  font-family: Poppins;
+  font-weight: 300;
+  font-size: 15px;
+  background: none;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 5px 35px;
+}
+
+.hero-container {
+  min-height: 80vh;
+  width: 85%;
+  margin: auto;
+}
+
+.hero-container > div > img {
+  position: absolute;
+  top: 22%;
+}
+
+.square {
+  position: absolute;
+  left: 17%;
+  bottom: 0;
+}
+
+.globe {
+  position: absolute;
+  right: 40%;
+}
+
+.star {
+  position: absolute;
+  top: 150px;
+  right: 100px;
+}
+
+.hero-container-right {
+  width: 52.5%;
+  position: absolute;
+  top: 40%;
+  right: 0;
+}
+
+.hero-heading {
+  font-family: Orbitron;
+  font-weight: 800;
+  font-size: 40px;
+  text-align: center;
+}
+.hero-description {
+  font-family: Poppins;
+  font-weight: 200;
+  text-align: center;
+  width: 90%;
+  padding: 20px;
+}
+
+.hero-container-right .btn-grp {
+  text-align: center;
+  padding: 20px;
+}
+
+.button-email {
+  font-family: Orbitron;
+  border: 1px solid black;
+  padding: 5px 20px;
+  border-radius: 10px;
+}
+.button-join {
+  font-family: Orbitron;
+  border: 1px solid black;
+  color: #fff;
+  background-color: black;
+  padding: 3px;
+  margin-left: 10px;
+  border-radius: 5px;
+}
+
+.contact-heading {
+  font-family: Poppins;
+  font-weight: 300;
+  text-align: center;
+  margin-top: 50px;
+  padding: 10px;
+}
+.icons {
+  padding: 0;
+  /* text-align: center; */
+  position: absolute;
+  /* left: 0; */
+  right: 230px;
+  margin-top: 12px;
+  margin-left: 80px;
+  /* bottom: 0%; */
+}
+.icons > span {
+  padding: 0 10px;
+}
